@@ -1,0 +1,340 @@
+body {
+
+	 background-color:white;  
+	font-family:"Arial";
+		
+}
+
+#menu_inicial {
+	top:0%;
+	width:100%;
+	height:60px;
+	position:fixed;	
+	z-index:2;
+	background-color:rgb(28,28,28); 
+	color:white;
+	
+}
+
+#guia_menu {
+	width:530px;
+	float:right;
+	display:inline;
+	margin-top:5px;
+	
+
+}
+
+#guia_menu li {
+	display:inline;
+	padding:20px;
+		
+}
+
+#container {
+/*	
+	border:solid 2px black;
+	/* margin-top:3.2%;		
+	background-color:blue;
+	
+	*/
+	
+
+}
+
+#container_conteudo {
+
+margin-top:200px;
+margin-left:350px;
+margin-right:100px;
+background-color:white;
+
+	
+}
+
+#lista_opcoes {
+	margin-top:60px;  
+	
+	
+}
+
+
+#guia_opcoes {		
+	position:fixed;
+	float:left;
+	width:205px;
+	height:100%;
+	background-color:rgb(40,40,40);
+	color:white;
+	border-radius:5px;	
+	margin-left:-5px;
+	margin-top:-170px;
+			
+}
+
+#lista_opcoes li{
+
+border:solid 1px #2F4F4F;
+border-bottom:solid 1px black; 
+padding:5px;
+padding-left:15px;
+margin-top:1px;
+font-size:17px;
+margin-bottom:1px;
+height:30px;
+cursor:pointer;
+
+}
+
+#lista_opcoes a{	
+text-decoration:none;
+color:#FFF0F5;
+}
+
+#lista_opcoes img{
+	
+	display:inline-block;
+	padding-right:13px;	
+}
+
+
+
+#guia_sub_opcoes {
+position:fixed;
+float:left;
+display:inline-block;
+/*background-color:rgba(0,0,0,0.4);*/
+background-color:blue;
+color:rgba(188,210,238,0.9);
+font-size:17px;
+width:200px;
+height:0px;
+cursor:pointer;
+}
+
+#guia_sub_opcoes li{
+	
+	border-bottom:solid 1px #363636;
+	padding-top:15px;
+	padding-bottom:2px;
+	margin-left:15px;
+}
+	
+#sub_menu_1 {
+position:absolute;	
+background-color:rgba(0,0,0,0.4);	
+margin-top:-70px;
+height:80px;
+display:none;
+width:200px;
+}
+
+
+#sub_menu_2 {
+position:absolute;		
+background-color:rgba(0,0,0,0.4);	
+margin-top:-25px;
+height:122px;
+display:none;
+width:200px;
+}
+
+#sub_menu_3 {
+position:absolute;	
+background-color:rgba(0,0,0,0.4);	
+margin-top:18px;
+height:122px;
+display:none;
+width:200px;
+}
+
+#sub_menu_4 {
+position:absolute;	
+background-color:rgba(0,0,0,0.4);	
+margin-top:60px;
+height:80px;
+display:none;
+width:200px;
+}
+
+#sub_menu_5 {
+position:absolute;	
+background-color:rgba(0,0,0,0.4);	
+margin-top:104px;
+height:80px;
+display:none;
+width:200px;
+}
+
+#sub_menu_6 {
+position:absolute;	
+background-color:rgba(0,0,0,0.4);	
+margin-top:145px;
+height:80px;
+display:none;
+width:200px;
+}
+
+
+#foot {
+	position:fixed;
+	width:200px;
+	height:50px;
+	bottom:0px;
+
+}
+
+
+
+#barra_separa {
+margin:10px;
+background-color:gray;
+width:180px;
+height:2px;
+}
+
+#btn_max_min {
+margin:10px;
+background-color:rgba(0,0,0,0.6);
+width:30px;
+height:20px;
+padding-left:20px;
+cursor:pointer;
+
+}
+
+#seta_img {
+	transform:rotate(180deg);
+}
+
+#titulo_inicial {
+	text-align:center;
+	font-size:40px;
+}
+
+
+.barra_separa {
+	width:80%;	
+	height:3px;
+	background-color:gray;
+	margin-top:20px;
+	margin-left:60px;		
+}
+
+#figura_logo {
+	padding:20px;
+	background-color:rgba(0,0,0,0.01);
+	box-shadow: 10px 10px 10px gray;
+	font-size:20px;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:40px;
+	
+}
+
+#menu_principal li {
+	position:relative;
+/*background-color:rgba(0,0,0,0.3);*/
+	font-weight:bold;	
+	padding-top:0px;
+	padding-bottom:0px;
+	
+
+}
+
+#sub_menu_perfil {
+	position:absolute;
+	background-color:rgba(100,100,100,0.9);
+	padding:10px;
+	width:120px;
+	height:80px;
+	right:3%;	
+	top:60px;	
+	text-align:center;
+	border-radius:60px 60px 60px 1000px ;
+	display:none;
+	
+
+}
+#sub_menu_perfil li{
+display:inline-block;	
+padding-top:10px;
+padding-bottom:10px;
+cursor:pointer;
+
+}
+
+#sub_menu_perfil a:hover{
+	color:#8DB6CD;
+	transition:0.5s;
+}
+
+#sub_menu_atualizacoes {
+	position:absolute;
+	background-color:rgba(100,100,100,0.9);
+	padding:10px;
+	width:150px;
+	height:80px;
+	right:14%;	
+	top:60px;	
+	text-align:center;
+	border-radius:60px 60px 60px 1000px ;
+	display:none;
+	
+
+}
+#sub_menu_atualizacoes li{
+display:inline-block;	
+padding-top:10px;
+padding-bottom:10px;
+cursor:pointer;
+}
+
+#sub_menu_atualizacoes a:hover{
+	color:#8DB6CD;
+	transition:0.5s;
+}
+
+
+
+#lista_opcoes_minimizado {
+	display:none;
+	margin-top:60px;  
+	
+}
+
+
+
+#lista_opcoes_minimizado li{
+
+border:solid 1px #2F4F4F;
+border-bottom:solid 1px black; 
+padding:5px;
+padding-left:20px;
+margin-top:1px;
+font-size:17px;
+margin-bottom:1px;
+height:30px;
+cursor:pointer;
+
+}	
+
+#lista_opcoes_minimizado a{	
+text-decoration:none;
+color:#FFF0F5;
+}
+
+#lista_opcoes_minimizado img{
+	
+	display:inline-block;
+	padding-right:13px;	
+}
+
+
+#guia_sub_opcoes li :hover {
+	color:rgba(100,100,100,0.9);
+	transition:0.5s;
+}
+
+
+

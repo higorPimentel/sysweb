@@ -1,0 +1,421 @@
+
+
+body {
+	background-color:rgba(0,0,0,0.1);
+	font-family:"Courier";	
+}
+
+#blco_foot_2{
+display:none;	
+}
+
+#frm_login2 {
+	display:none;
+}
+
+#qd_info{
+	
+	background-color:rgba(20,0,20,0.9);  
+	float:left; 
+	display:inline-block;
+	border:solid 1px #A2B5CD;
+	width:620px;
+	height:360px;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.8);	
+}
+
+#blco_login {
+
+  width: 430px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -170px;
+  margin-left: -315px;
+  
+}
+
+
+
+#frm_login {
+	float:left;
+	display:inline-block;
+	border:solid 1px #A2B5CD;
+	width:400px;
+	height:360px;
+	background-color:white;
+	border-radius:10px;
+}
+
+
+#frmt_log {
+width:71%;
+height:38px;
+margin:30px;
+border:solid 1px #BEBEBE;
+border-radius:0px 5px 5px 0px;
+
+
+}
+
+#cx_usuario {
+height:34px;
+width:230px;
+border:none;
+margin-left:10px;
+outline:none;
+border-left:solid 1px #BEBEBE;	
+font-size:18px;
+padding-left:3px;
+color:#2F4F4F;
+
+}
+
+#img_login {
+float:left;
+display:inline-block;
+}
+
+
+#cx_senha {
+height:34px;
+width:230px;
+border:none;
+margin-left:10px;
+outline:none;
+border-left:solid 1px #BEBEBE;	
+font-size:18px;
+padding-left:3px;
+color:#2F4F4F;	
+
+}
+
+#img_senha{
+	
+float:left;
+display:inline-block;
+background-color:blue;
+
+}
+
+#cab_log {
+
+display:inline-block;
+margin-left:50px;
+margin-top:20px;
+color:#4682B4;
+font-size:30px;	
+	
+}
+
+
+.cx_txt::-webkit-input-placeholder{
+	  color:#BEBEBE;
+      text-transform: uppercase;
+	  font-style: bold;
+}
+.cx_txt::-moz-placeholder {
+	  color:#BEBEBE;
+      text-transform: uppercase;
+	  font-style: bold;
+}
+
+
+.btn_check {
+	display:inline-block;
+	margin-left:50px;
+	font-size:18px;
+	color:#778899;
+}
+
+#btn_check_exib {
+	margin-left:30px;
+}
+
+.btn_log {
+	margin-top:40px;	
+	
+	
+
+
+}
+
+#btn_acessar {
+	float:left;
+	margin-left:50px;
+	width:130px;
+	height:35px;	
+	background-color:rgba(20,0,20,0.9);
+	color:white;
+	font-size:17px;
+	cursor:pointer;		
+}
+
+
+
+#btn_cadastrar {
+	margin-left:10px;
+	width:130px;
+	height:35px;	
+	background-color:rgba(20,0,20,0.9);
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+		
+}
+
+
+
+#btn_cadastra {
+	margin-left:50px;
+	width:260px;
+	height:35px;	
+	display:block;
+
+}
+
+
+.others_info {
+	margin-top:100px;
+	color:#87CEEB;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+
+#txt_others_1{
+	padding-right:20px;
+	margin:10px;	
+	margin-left:410px;
+	text-align:Center;
+	
+}	
+
+#anc_contato {
+	color:#CAE1FF;
+	margin-left:10px;
+	
+}
+
+#foot_fin {
+	display:inline-block;
+	margin-top:30px;
+	margin-left:150px;
+	color:#6E7B8B;
+	
+}
+ 
+ #foot_fin2 {
+	 color:#6E7B8B;
+	margin-top:3px;
+	margin-left:150px;
+	display:block;
+	
+}
+
+
+
+#msg_err{    
+    position:fixed;	
+    display:none;
+	color:#2F4F4F;
+	border: solid 1px #66CDAA;
+	font-size:20px;
+	padding:4px;
+	background-color:#FF6347;
+	color:white;
+    bottom:25px;
+    right:25px;
+}
+
+#msg_validacao_cxs{    
+    position:fixed;	
+	display:none;
+   	color:#2F4F4F;
+	border: solid 1px #66CDAA;
+	font-size:20px;
+	padding:4px;
+	background-color:#8B8682;
+	color:white;
+    bottom:25px;
+    right:25px;
+}
+
+
+#new_usuario a {
+	margin-top:60px;
+	color:#CAE1FF;
+	font-weight:bold;
+	margin-left:10px;
+	
+}
+
+.menu_caption {
+	border:yellow;
+}
+
+
+
+
+
+/*TABLET */
+@media (min-width: 300px)and (max-width: 900px) {
+	
+
+#blco_login{
+	
+display:none;
+}
+
+
+#frm_login2 {
+	display:block;
+	border:solid 1px #A2B5CD;
+	height:400px;
+	background-color:white;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10%;
+}
+
+#blco_foot_2{
+display:block;	
+}
+
+#frmt_log {
+	width:85%;		
+}
+
+#cx_usuario2 {
+height:34px;
+border:none;
+margin-left:10px;
+outline:none;
+border-left:solid 1px #BEBEBE;	
+font-size:18px;
+padding-left:3px;
+color:#2F4F4F;	
+width:80%;		
+}
+
+#cx_senha2{
+height:34px;
+border:none;
+margin-left:10px;
+outline:none;
+border-left:solid 1px #BEBEBE;	
+font-size:18px;
+padding-left:3px;
+color:#2F4F4F;		
+width:80%;		
+}
+
+#btn_acessar2 {
+	width:80%;
+	margin-left:30px;
+	margin-bottom:5px;
+	
+	height:35px;	
+	background-color:rgba(20,0,20,0.9);
+	color:white;
+	font-size:17px;
+	cursor:pointer;		
+
+}
+
+#btn_cadastrar2 {
+	width:80%;
+	margin-left:30px;
+	
+	height:35px;	
+	background-color:rgba(20,0,20,0.9);
+	color:white;
+	font-size:17px;
+	cursor:pointer;		
+		
+}
+
+	
+}
+
+
+
+
+/*mobile - celular */
+@media (max-width: 480px) {
+  
+	
+
+#blco_login{
+	
+display:none;
+}
+
+#blco_foot_2{
+display:none;	
+}
+
+
+#frm_login2 {
+	display:block;
+	border:solid 1px #A2B5CD;
+	height:400px;
+	background-color:white;
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10%;
+}
+
+
+#frmt_log {
+	width:85%;		
+}
+
+#cx_usuario2 {
+height:34px;
+border:none;
+margin-left:10px;
+outline:none;
+border-left:solid 1px #BEBEBE;	
+font-size:18px;
+padding-left:3px;
+color:#2F4F4F;	
+width:80%;		
+}
+
+#cx_senha2{
+height:34px;
+border:none;
+margin-left:10px;
+outline:none;
+border-left:solid 1px #BEBEBE;	
+font-size:18px;
+padding-left:3px;
+color:#2F4F4F;		
+width:80%;		
+}
+
+#btn_acessar {
+	width:80%;
+	margin-left:30px;
+	margin-bottom:5px;
+
+}
+
+#btn_cadastrar {
+	width:80%;
+	margin-left:30px;
+		
+}
+
+
+
+
+
+}
+
+

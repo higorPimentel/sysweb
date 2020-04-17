@@ -1,0 +1,302 @@
+
+.frm_cad_clientes {
+	position:relative;
+	margin-top:100px;	
+	margin-left:240px;
+	margin-right:30px;
+
+}
+
+#lista_opcoes {
+	margin-top:200px;
+}
+
+#lista_opcoes_minimizado {
+	margin-top:200px;
+	
+}
+
+#guia_sub_opcoes {
+	margin-top:140px;
+}
+
+#guia_opcoes{
+	height:200%;
+}
+
+#foot {
+	margin-top:450px;
+}
+
+.frames {
+	padding:20px;
+	margin-top:10px;
+	border-bottom:solid 1px gray;
+	
+	
+	
+}	
+
+.blcos_frm {
+	display:inline-block;
+	margin:5px;	
+	margin-top:10px;
+	margin-left:40px;	
+	
+	
+}
+
+.frames input {
+	padding-left:5px;
+	margin-left:5px;
+	height:28px;	
+	outline:none;
+	
+	
+	
+}
+
+.cxs_text {
+width:100%;
+}
+
+
+.frames label {
+	margin-left:10px;
+	font-size:13px;
+	font-family:"Arial";
+	color:#2F4F4F;
+}
+
+/************************  BLOCO 1  ******************************************/
+
+#bloco_codigo {
+width:15%;
+} 
+
+#bloco_tipo_cadastro {	
+	
+}
+
+#bloco_nome {
+width:70%;			
+} 
+
+#bloco_razao {
+width:80%;
+} 
+#bloco_contato {
+width:65%;
+} 
+
+#bloco_rg {
+	width:40%;	
+	min-width:200px;
+
+} 
+
+#bloco_cpf {
+width:40%;	
+min-width:200px;	
+} 
+
+#bloco_sexo {
+	
+} 
+
+#bloco_dt_nascimento {
+width:45%;		
+} 
+
+#bloco_telefone {
+	width:45%;			
+} 
+
+#bloco_celular {
+width:45%;			
+} 
+
+#bloco_razao {
+	width:70%;
+} 
+
+#bloco_cnpj {
+		
+} 
+
+#bloco_insc_estadual {
+	width:40%;	
+} 
+
+#bloco_outros_doc{
+	width:40%;		
+}
+
+/************************  BLOCO 2  ******************************************/
+
+
+#bloco_cep_cliente{
+	width:40%;		
+}
+
+#bloco_endereco_cliente{
+	width:80%;		
+}
+
+#bloco_numero_cliente{
+	width:22%;		
+}
+
+#bloco_email_cliente{
+		width:60%;	
+}
+
+#bloco_email_nf_cliente{
+width:60%;		
+}
+
+
+/************************  BLOCO 3  ******************************************/
+
+#bloco_cep_cobranca{
+	width:40%;		
+}
+
+#bloco_endereco_cobranca{
+	width:80%;		
+}
+
+#bloco_numero_cobranca{
+	width:22%;		
+}
+
+#bloco_email_cobranca{
+		width:60%;	
+}
+
+#bloco_email_nf_cobranca{
+width:60%;		
+}
+
+
+/************************  BLOCO 4  ******************************************/
+
+
+
+
+
+
+#cx_codigo {
+	text-align:center;		
+}
+
+#cx_nome {
+	text-transform:uppercase;
+}
+
+#cx_razao {
+	text-transform:uppercase;	
+}
+
+#radio_tipo_cad {
+padding:5px;
+border:solid 1px #D3D3D3;
+}
+
+#radio_sexo {
+padding:5px;
+border:solid 1px #778899;
+}
+
+#cx_selecao_estado_cliente {
+height:28px;	
+outline:none;
+background-color:#EEE5DE;	
+padding-left:30px;
+}
+
+#cx_cidade_cliente {
+height:28px;	
+outline:none;
+background-color:#EEE5DE;	
+padding-left:30px;
+}
+
+
+#cx_selecao_estado_cobranca {
+height:28px;	
+outline:none;
+background-color:#EEE5DE;	
+padding-left:30px;
+}
+
+#cx_cidade_cobranca {
+height:28px;	
+outline:none;
+background-color:#EEE5DE;	
+padding-left:30px;
+}
+
+
+
+
+.frm_cad_clientes h1 {
+	display:inline-block;
+	font-size:23px;
+	font-weight:bold;
+	color:#778899;
+	margin-top:10px;
+	margin-bottom:20px;
+	border-bottom:solid 1px #CDC0B0;
+	border-left:solid 1px #CDC0B0;
+	padding-left:10px;
+	padding-bottom:10px;	
+	
+}
+
+#opcpes_cadastro {
+	position:fixed;
+	top:60px;
+	right:10px;
+	border-bottom:solid 1px #D3D3D3;
+	border-left:solid 1px #D3D3D3;
+	border-right:solid 1px #D3D3D3;
+	background-color:rgba(20,200,200,0.2);
+}
+
+#cx_selec_opcoes {
+	border-bottom:solid 1px #D3D3D3;
+	padding-bottom:10px;
+}	
+
+#btns_cadastro {
+margin-top:15px;
+
+}	
+
+
+#btn_confirmar {
+	
+	margin-left:0px;
+	width:100px;
+	height:35px;	
+	background-color:rgba(20,0,20,0.9);
+	color:white;
+	font-size:16px;
+	cursor:pointer;
+	
+		
+}
+
+
+#btn_cancelar {
+	
+		margin-left:5px;
+	width:100px;
+	height:35px;	
+	background-color:rgba(20,0,20,0.9);
+	color:white;
+	font-size:16px;
+	cursor:pointer;
+}
+

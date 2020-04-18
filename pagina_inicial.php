@@ -37,7 +37,7 @@
 							<h1 id="titulo_inicial">SEJA BEM VINDO HIGOR</h1>
 								<div class="barra_separa"> </div>
 									<figure id = "figura_logo">	
-										<img id="img_logo" src="img/logo_padrão.PNG"> </img>
+										<img id="img_logo" src="img/logo_padrao.PNG"> </img>
 											<figcaption> SIS WEB - Desenvolvendo Soluções WEB e MOBILE. </figcaption>
 									</figure>	
 								<div class="barra_separa"> </div>

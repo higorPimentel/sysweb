@@ -11,8 +11,10 @@
 			<link rel="stylesheet" href="css/reset.css">
 			<link rel="stylesheet" href="css/frmt_index.css">
 			<meta name="viewport" content="width=device-width">
-	
+			
+			
 	</head>
+	
 	
 	
 	<body>
@@ -23,42 +25,42 @@
 		
 					<form id="frm_login">							
 							<h1 id="cab_log">Login</h1>					
-							<div class="frmt_log">							
-								<img id="img_login"width="30px"src="img/ft_login.png">
-								<input id="cx_usuario" class ="cx_txt" type="text" placeholder="usuário" autofocus>							
-							</div>	
+								<div class="frmt_log">							
+									<img id="img_login"width="30px"src="img/ft_login.png">
+									<input id="cx_usuario" class ="cx_txt" type="text" placeholder="usuário" autofocus>							
+								</div>	
 							
-							<div class="frmt_log">	
-								<img id="img_senha" width="30px" src="img/ft_sn.png">
-								<input id="cx_senha" class ="cx_txt" type="password" placeholder="SENHA">							
-							</div>	
+								<div class="frmt_log">	
+									<img id="img_senha" width="30px" src="img/ft_sn.png">
+									<input id="cx_senha" class ="cx_txt" type="password" placeholder="SENHA">							
+								</div>	
 							
-							<div class="btn_check">
-								<input onclick="exib_snha()" id="btn_check_exib"type="checkbox">Exibir Senha</input>
-							</div>
+								<div class="btn_check">
+									<input onclick="exib_snha()" id="btn_check_exib"type="checkbox">Exibir Senha
+								</div>
 							
 							
-							<div class="btn_log">
-								<input onmousemove="altera_btn()" onmouseleave="ret_btn()" onclick="click_btn_lgn()"id="btn_acessar"type="button" value="Acessar">
-								<input onmousemove="altera_btn2()" onmouseleave="ret_btn2()" onclick="click_btn_cad()"id="btn_cadastrar"type="button" value="Novo Usuário">
-																	
-							</div>
+								<div class="btn_log">
+									<input onmousemove="altera_btn()" onmouseleave="ret_btn()" onclick="click_btn_lgn()"id="btn_acessar"type="button" value="Acessar">
+									<input onmousemove="altera_btn2()" onmouseleave="ret_btn2()" onclick="click_btn_cad()"id="btn_cadastrar"type="button" value="Novo Usuário">
+																		
+								</div>
 							
 					</form>
 				
-					<div class="others_info">
-			
-							<img src="img/logo1.png" alt="Logo SIS WEB">			
-							<p id="txt_others_1">Sis WEB - Desenvolvendo Soluções WEB</p>
-													
-						
-				    </div>
+									<div class="others_info">
+							
+											<img src="img/logo1.png" alt="Logo SIS WEB">			
+											<p id="txt_others_1">Sis WEB - Desenvolvendo Soluções WEB</p>
+																	
+										
+									</div>
 					
-					<div>
-						
-						<p id="foot_fin">Copyright © 2019 | SIS WEB </p>
-						<p id="foot_fin2"> Desenvolvedor: Higor Pimentel </p>
-					</div>			
+									<div>
+										
+										<p id="foot_fin">Copyright © 2019 | SIS WEB </p>
+										<p id="foot_fin2"> Desenvolvedor: Higor Pimentel </p>
+									</div>			
 			</div>
 		</div>
 		

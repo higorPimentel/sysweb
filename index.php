@@ -23,12 +23,12 @@
 		
 					<form id="frm_login">							
 							<h1 id="cab_log">Login</h1>					
-							<div id="frmt_log">							
+							<div class="frmt_log">							
 								<img id="img_login"width="30px"src="img/ft_login.png">
 								<input id="cx_usuario" class ="cx_txt" type="text" placeholder="usuário" autofocus>							
 							</div>	
 							
-							<div id="frmt_log">	
+							<div class="frmt_log">	
 								<img id="img_senha" width="30px" src="img/ft_sn.png">
 								<input id="cx_senha" class ="cx_txt" type="password" placeholder="SENHA">							
 							</div>	
@@ -67,14 +67,14 @@
 		<div id="bloco_login_2">
 		
 			<form id="frm_login2">							
-							<h1 id="cab_log">Login</h1>					
-							<div id="frmt_log">							
-								<img id="img_login"width="30px"src="img/ft_login.png">
+							<h1 id="cab_log2">Login</h1>					
+							<div class="frmt_log">							
+								<img id="img_login2"width="30px"src="img/ft_login.png">
 								<input id="cx_usuario2" class ="cx_txt" type="text" placeholder="usuário" autofocus>							
 							</div>	
 							
-							<div id="frmt_log">	
-								<img id="img_senha" width="30px" src="img/ft_sn.png">
+							<div class="frmt_log">	
+								<img id="img_senha2" width="30px" src="img/ft_sn.png">
 								<input id="cx_senha2" class ="cx_txt" type="password" placeholder="SENHA">							
 							</div>	
 							
@@ -88,8 +88,8 @@
 					
 					
 					<div id="blco_foot_2">						
-						<p id="foot_fin">Copyright © 2019 | SIS WEB </p>
-						<p id="foot_fin2"> Desenvolvedor: Higor Pimentel </p>
+						<p id="foot_fin3">Copyright © 2019 | SIS WEB </p>
+						<p id="foot_fin4"> Desenvolvedor: Higor Pimentel </p>
 					</div>							
 		</div>
 		

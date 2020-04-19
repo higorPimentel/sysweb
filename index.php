@@ -16,12 +16,7 @@
 
 	<body>
 	
-				<header>				
-					
-								<?php include("menu.php")?>
-			</header>
-
-
+			
 			<div id = "container">
 		
 				

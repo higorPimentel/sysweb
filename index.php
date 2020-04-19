@@ -16,14 +16,13 @@
 
 	<body>
 	
-			
-			<div id = "container">
-		
-				
-						
+				<header>				
 					
-			</div>
+								<?php include("menu.php")?>
+			</header>
 
+
+			
 	</body>
 
 

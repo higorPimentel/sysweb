@@ -16,9 +16,9 @@
 
 	<body>
 	
-				<header>				
+			<header>				
 					
-								<?php include("menu.php")?>
+								
 			</header>
 
 

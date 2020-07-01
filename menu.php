@@ -89,5 +89,14 @@
 						
 							
 		</nav>
+		
+		
+		<div id="info_adcional"> 
+			<ul>
+				<li id="cmpo_usuario_inicio">Usuário Logado:</li>
+				<li id="cmpo_ultm_acesso">Último Acesso:</li>
+			</ul>		
+		</div>
+		
 			
 </header>

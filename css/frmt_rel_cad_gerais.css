@@ -1,0 +1,130 @@
+body{
+	
+
+}
+
+
+#guia_opc {
+margin-top: 120px;
+}
+
+#btns_cadastro {
+	position:fixed;
+	top:62px;
+	right:10px;
+	height:58px;
+	width:800px;
+	border-bottom:solid 1px #D3D3D3;
+	border-left:solid 1px #D3D3D3;
+	border-right:solid 1px #D3D3D3;
+	background-color:rgba(0,0,0,0.8);
+	z-index:4;
+}
+
+#btns_cadastro input {
+margin-left:5px;
+}
+
+#cont_btn{
+	position: absolute;
+	right:10px; 
+	bottom:10px;
+
+}
+
+#btn_confirmar {
+	width:150px; 
+}
+
+#h11{
+	display: inline-block;
+	margin-left: 260px;
+	margin-top:50px;
+	font-size:23px;
+	font-weight:bold;
+	color:#778899;
+	border-bottom:solid 1px #CDC0B0;
+	border-left:solid 1px #CDC0B0;
+	padding-left:10px;
+	padding-bottom:10px;	
+		
+}
+
+#cont_registros{
+	display: block;
+	margin-left: 220px;
+	margin-top:40px;
+	font-size:20px;
+	font-weight:bold;
+	color:#698B69;
+	padding-left:10px;
+	padding-bottom:10px;	
+		
+}
+
+
+.grupo_dta {
+display: inline-block;
+margin-top:5px;
+margin-left: 10px;
+width: 150px;
+font-size: 14px;
+color:white;	
+}
+
+.grupo_dta input {	
+margin-left:0px;
+margin-top: 5px;
+width: 100%;
+font-size:15px;
+color:black;
+background-color:#AFEEEE;
+}
+
+.grupo_dta label {	
+margin-left:5px; 
+}
+
+#cmb_tipo_relatorio{
+display: inline-block;
+margin-top:5px;
+margin-left: 10px;
+width: 180px;
+font-size: 14px;
+color:white;	
+
+}
+
+#cmb_tipo_relatorio select{
+margin-left:0px;
+margin-top: 5px;
+width: 100%;
+font-size:15px;
+color:black;
+background-color:#AFEEEE;
+box-shadow:1px 1px 10px white;
+}
+
+
+#conteudo_relatorio{
+	margin-left:230px;
+}
+
+#relatorio th {
+	border: solid 1px white;
+	padding:5px;
+	font-size:17px;
+	color:#AEEEEE;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+
+#relatorio td {
+	border: solid 1px #A2B5CD;
+	font-size:15px;	
+	padding:5px;	
+	color:#696969;
+	background-color:#F5F5F5;
+	cursor: pointer;
+}
+

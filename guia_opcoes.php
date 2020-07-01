@@ -35,8 +35,8 @@
 
 
 	<ul id="sub_menu_1">
-		<li><a>Exibição</a></li>
-		<li><a>Outras Informações</a></li>
+		<li onclick ="redireciona_exibicao()"><a>Exibição</a></li>
+		<li onclick ="redireciona_novo_usuario()">Novo Usuário</li>
 	</ul>
 
 	
@@ -54,7 +54,7 @@
 	</ul>
 	
 	<ul id="sub_menu_4">
-		<li><a>Cadastro Gerais</a></li>
+		<li onclick ="redireciona_rel_cad_gerais()"><a>Cadastro Gerais</a></li>
 		<li><a>Estoque</a></li>
 	</ul>
 	

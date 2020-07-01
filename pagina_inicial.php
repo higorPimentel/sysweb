@@ -34,11 +34,11 @@
 						
 						
 						<div id="container_conteudo">
-							<h1 id="titulo_inicial">SEJA BEM VINDO HIGOR</h1>
+							<h1 id="titulo_inicial">SEJA BEM VINDO</h1>
 								<div class="barra_separa"> </div>
 									<figure id = "figura_logo">	
-										<img id="img_logo" src="img/logo_padrao.PNG"> </img>
-											<figcaption> SIS WEB - Desenvolvendo Soluções WEB e MOBILE. </figcaption>
+										<img id="img_logo" src="img/logo_padrao.png"> </img>
+											<figcaption> SIS WEB - Desenvolvendo Soluções WEB. </figcaption>
 									</figure>	
 								<div class="barra_separa"> </div>
 								

@@ -1,7 +1,6 @@
 <?php 
-$conexao = mysqli_connect('localhost','root','','cadastro');
-//$conexao = mysqli_connect('localhost','u259419259_higor2','higor961802','u259419259_controle_estoq');
 
+include("executa_crendeciais_bd.php");
 
 $usuario_atv = $_POST["user_atv"];
 $query_seleciona = "SELECT  *  FROM decode_pagina";
@@ -48,9 +47,12 @@ $query_altera_url = "UPDATE decode_pagina SET name_pag = '"  .  $xcod . ".php' W
 mysqli_query($conexao,$query_altera_url);
 
 
+// AO INCLUIR UMA NOVA PAGINA, INCLUIR TBM EM FUNÇÕES ESPECIFICAS
 //rename("pagina_inicial" . $nome_pg_atual,"pagina_inicial"  . $xcod .".php");
 copy("pagina_inicial.php","pagina_inicial"  .  $xcod .".php");
 copy("cadastro_clientes.php","cadastro_clientes"  .  $xcod .".php");
+copy("rel_cad_gerais.php","rel_cad_gerais"  .  $xcod .".php");
+copy("pg_novo_usuario.php","pg_novo_usuario"  .  $xcod .".php");
 echo( $xcod .".php");
 
 

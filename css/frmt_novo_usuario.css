@@ -1,0 +1,47 @@
+body {	
+	
+}
+
+#separa_cabecalho {
+left:-200px;
+width:1800px;
+}
+
+.frames {
+	margin-left:-200px;
+}
+
+#bloco_cadastro_user {
+	margin-left:200px;
+}
+
+#titulo {
+	margin-left:-100px;
+}
+
+.blcos_frm {
+	width:260px;
+}
+
+#bloco_cx_codigo {
+	width:100px;
+}
+
+#btns_cadastro{
+	margin-top:40px;
+}
+
+#btns_cadastro input{
+	width:120px;
+	height:30px;	
+	font-size:15px;
+	border:solid 1px #696969;
+	outline: none;
+}
+
+#info_validacao_senhas {
+	display:inline-block;
+	margin-left:-65px;
+	margin-top:30px;
+	color:#6C7B8B;	
+}
